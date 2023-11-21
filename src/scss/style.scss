@@ -1,5 +1,42 @@
-$primary: rgb(158, 218, 37);
-
-body{
-    background: $primary;
-}
+/* CSS for left side menu */
+.sidebar {
+    background-color: #1079e1;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 4px;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #eee;
+  }
+  
+  /* CSS for main content */
+  .main-content {
+    padding: 20px;
+  }
+  
+  .main-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .main-content p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
